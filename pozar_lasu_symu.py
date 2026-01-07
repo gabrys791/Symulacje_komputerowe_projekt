@@ -20,7 +20,7 @@ cmap = colors.ListedColormap(['green', 'orange', 'black'])
 stara_plansza = plansza_pocz.copy()
 nowa_plansza = np.zeros((10, 10), dtype=int)
 wysokosc, szerokosc = stara_plansza.shape
-szansa_na_podpalenie = 0.5
+szansa_na_podpalenie = 0.8
 
 plt.ion()
 fig, ax = plt.subplots()
@@ -92,3 +92,4 @@ while symulacja_trwa:
 
 plt.ioff()
 plt.show()
+
